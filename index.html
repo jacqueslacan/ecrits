@@ -5,6 +5,19 @@
         <title>网页</title>
     </head>
     <body>
+        <div style="background-color:white;">
+            <button id='dzs' onclick="dianzan()">0</button>
+            <script>
+                function dianzan(){
+                    let biaoqian=window.document.getElementById('dzs');
+                    let shu=parseInt(biaoqian.innerText);
+                    let new=shu+1;
+                    biaoqian.innerText=new;
+                    return;
+                }
+            </script>
+        </div>
+                
         <div style="
             background-color: darkolivegreen;
             margin: auto;
